@@ -2,7 +2,7 @@ name: CD React App
 on: push
 jobs:
   test:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Get repository code
         uses: actions/checkout@v3
